@@ -1,0 +1,25 @@
+class Dhirubhai{
+    
+    
+  String companay="Reliance jio";
+  
+    public void thinkstyle(){
+      System.out.println("Dhirubhai's thinking style");  
+        
+    }
+}
+    
+    class Mukesh extends Dhirubhai{
+        
+        
+    }
+public class Main
+{   
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	Mukesh m =new Mukesh();
+
+		System.out.println(m.companay);
+	m.thinkstyle();	
+	}
+}
