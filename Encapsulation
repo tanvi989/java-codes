@@ -1,0 +1,25 @@
+class Atm{
+    
+    
+    private int sal=99000;
+    public void getSal(){
+      System.out.println(sal);  
+        
+    }
+    public void setSal(int salary){
+      System.out.println(this.sal=salary);  
+        
+    }
+    
+}
+public class Main
+{   
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		Atm a= new Atm();
+			System.out.println();
+			a.getSal();
+		    a.setSal(1000000);
+		    	a.getSal();
+	}
+}
